@@ -84,6 +84,13 @@ body {
 	display: inline-block;
 	font-size: 30px;
 }
+
+.sosmed {
+	-webkit-user-select: none; /* Safari */
+	-ms-user-select: none; /* IE 10 and IE 11 */
+	user-select: none; /* Standard syntax */
+}
+
 .tulisan {
 	display: block;
 	text-align: left;
@@ -151,7 +158,7 @@ a {
 .ptk-c {
 	position: relative;
 	left: 87%;
-	top: -10px;
+	top: -3px;
 }
 
 .ktkt {
