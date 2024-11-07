@@ -27,8 +27,18 @@ body {
 	left: 50%;
 }
 .container {
+	-webkit-user-select: none; /* Safari */
+	-ms-user-select: none; /* IE 10 and IE 11 */
+	user-select: none; /* Standard syntax */
 	width: 320px;
+	transition: transform 200ms ease-in-out;
 }
+.container:hover,
+.container:focus,
+.container:active {
+	transform: scale(1.1);
+}
+
 .mainbox {
 	height: 100%;
 	width: 100%;
@@ -83,12 +93,6 @@ body {
 #midday {
 	display: inline-block;
 	font-size: 30px;
-}
-
-.sosmed {
-	-webkit-user-select: none; /* Safari */
-	-ms-user-select: none; /* IE 10 and IE 11 */
-	user-select: none; /* Standard syntax */
 }
 
 .tulisan {
